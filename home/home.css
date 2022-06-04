@@ -139,6 +139,7 @@ hr{
   .main-body{
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
     font-weight: lighter;
     padding-left: 4%;
     padding-top: 100px;
@@ -208,6 +209,7 @@ hr{
     margin-bottom: 10px;
   }
   .footer-col ul li a{
+    align-items: center;
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -218,6 +220,7 @@ hr{
     transition: all 0.3s ease;
   }
   .footer-col ul li a:hover{
+    
     color: #ffffff;
     padding-left: 8px;
   }
@@ -234,11 +237,12 @@ hr{
     transition: all 0.5s ease;
   }
   .footer-col .social-links a:hover{
+    
     color: #24262b;
     background-color: #ffffff;
   }
   
-  /responsive/
+  /*responsive*/
   @media(max-width: 767px){
     .footer-col{
       width: 50%;
@@ -249,4 +253,65 @@ hr{
     .footer-col{
       width: 100%;
   }
+  }
+
+
+  h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+    
+    
+    
+    font-size: 200px;
+  }
+
+  h3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align: center;
+    
+    background-color: white;
+    color: black;
+    
+  }
+
+  .main-body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+  }
+  p{
+    
+    text-align: center;
+    background-color: white;
+    color: black;
+
+  }
+
+
+  .container{
+    padding-left: 450px;
+    padding-right: 0px;
+    
+  }
+
+  p{
+    font-size: larger;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+  }
+
+  .underline{
+    
+    margin: 0px 0px 0px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
   }
