@@ -139,6 +139,7 @@ hr{
   .main-body{
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
     font-weight: lighter;
     padding-left: 4%;
     padding-top: 100px;
@@ -208,6 +209,7 @@ hr{
     margin-bottom: 10px;
   }
   .footer-col ul li a{
+    align-items: center;
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -218,6 +220,7 @@ hr{
     transition: all 0.3s ease;
   }
   .footer-col ul li a:hover{
+    
     color: #ffffff;
     padding-left: 8px;
   }
@@ -234,6 +237,7 @@ hr{
     transition: all 0.5s ease;
   }
   .footer-col .social-links a:hover{
+    
     color: #24262b;
     background-color: #ffffff;
   }
@@ -252,59 +256,92 @@ hr{
   }
 
 
-
-.faq-div h2{
-    padding-top: 60px;
-    background-color:white;
-    color: black;
-}
-
-.faq-block{
-    color: white;
+  h2{
+    text-align: center;
     background-color: white;
-}
-
-
-
-.faq-items{
-  text-align: center ;
     color: black;
-    background-color: white;
-    padding-top: 20px;
-
-}
-.faq-items-first{
-  text-align: center ;
-    padding-top: 40px;
-    color: black;
-    background-color: white;
     
+    
+    
+    
+    font-size: 20px;
+  }
 
-}
-.faq-items-last{
-  text-align: center ;
-    color: black;
+  h3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align: center;
+    
     background-color: white;
-   padding-bottom: 30px;
-   padding-top: 20px;
+    color: black;
+    
+  }
 
-}
+  .privacy-head{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+  }
+  p{
+    
+    text-align: center;
+    background-color: white;
+    color: black;
 
-.ans{
-  background-color: white;
-  text-align:center
-}
+  }
 
-hr{
-  
-  margin: 0px 0px 0px 0px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: white;
-}
 
-h2{
-  padding-bottom: 60px;
-  padding-top: 40px;
-}
+  .container{
+    padding-left: 450px;
+    padding-right: 0px;
+    
+  }
 
+  ol{
+    background-color: white;
+    font-size: larger;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    text-align: justify;
+  }
+
+  .underline{
+    
+    margin: 0px 0px 0px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+  }
+
+  .privacy-head{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .privacy-block{
+      background-color: white;
+      padding-bottom: 20px;
+  }
+
+ hr{
+    
+    margin: 0px 0px 0px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+  }
+
+  .first{
+      padding-top: 40px;
+  }
+
+  .last{
+      padding-bottom: 40px;
+  }
+
+ 
