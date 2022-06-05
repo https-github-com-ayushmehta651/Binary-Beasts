@@ -2,7 +2,20 @@
   border: 1px solid black;
   border-collapse: collapse;
 }
-th,td{
-  border: 1px solid black;
-  border-collapse: collapse;
+
+
+tr:hover {background-color: rgb(136, 194, 248);}
+
+.head-row{
+  font-size: 20px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+
+th, td {
+  padding: 15px;
+  text-align: left;
 }
